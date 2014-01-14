@@ -1,0 +1,129 @@
+<?php $this->Html->addCrumb('Profile', $this->View->url('user_profile', $this->Session->read('Auth.User.username'))) ?>
+<?php $this->Html->addCrumb('Messages', null) ?>
+
+<div class="pull-left">
+    <h1>Messages - <?php echo $current_box ?></h1>
+</div>
+<div class="btn-group pull-right">
+	<a href="<?php echo $this->View->url('messages_send') ?>" class="btn btn-primary">
+		Send Message
+	</a>
+    <a class="btn dropdown-toggle btn-success" data-toggle="dropdown">
+    View <i class="icon-picture"></i>
+    <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu" style="min-width: 0px">
+	    <li<?php if ( $box == 'inbox'): ?> class="active"<?php endif ?>>
+		    <a href="<?php echo $this->View->url('messages_index_box', 'inbox') ?>">Inbox (<?php echo $box_count['inbox'] ?>)</a>
+	    </li>
+	    <li<?php if ( $box == 'outbox'): ?> class="active"<?php endif ?>>
+		    <a href="<?php echo $this->View->url('messages_index_box', 'outbox') ?>">Outbox (<?php echo $box_count['outbox'] ?>)</a>
+	    </li>
+	    <li<?php if ( $box == 'sentbox'): ?> class="active"<?php endif ?>>
+		    <a href="<?php echo $this->View->url('messages_index_box', 'sentbox') ?>">Sentbox (<?php echo $box_count['sentbox'] ?>)</a>
+	    </li>
+	    <li<?php if ( $box == 'archive'): ?> class="active"<?php endif ?>>
+		    <a href="<?php echo $this->View->url('messages_index_box', 'archive') ?>">Archive (<?php echo $box_count['archive'] ?>)</a>
+	    </li>
+    </ul>
+</div>
+<div class="clearfix"></div>
+
+<?php if ( !empty($messages)): ?>
+    <table class="table table-hover">
+        <thead>
+            <tr>
+                <th><?php echo $this->Paginator->sort('is_read', 'Read') ?></th>
+                <?php if ( $box == 'archive'): ?>
+                    <th>Box</th>
+	            <?php endif ?>
+                <th><?php echo $this->Paginator->sort('title', 'Subject') ?></th>
+                <th><?php echo $this->Paginator->sort('Sender.username', 'From') ?>
+                <th><?php echo $this->Paginator->sort('Receiver.username', 'To') ?>
+                <th class="hidden-phone"><?php echo $this->Paginator->sort('created') ?></th>
+                <th class="hidden-phone"><?php echo $this->Paginator->sort('last_reply_time', 'Last Reply') ?></th>
+                <?php if ( $box != 'outbox'): ?>
+                    <th></th>
+	            <?php endif ?>
+            </tr>
+        </thead>
+
+        <tbody>
+            <?php foreach($messages as $index => $message): ?>
+            <tr>
+                <td>
+                    <?php if ( $message['Message']['is_read'] == 1): ?>
+                        <i class="icon icon-ok"></i>
+                    <?php else: ?>
+                        <i class="icon icon-remove"></i>
+                    <?php endif ?>
+                </td>
+                <?php if ( $box == 'archive'): ?>
+                    <td>
+                        <?php if ( $message['Sender']['username'] == $username && $message['Message']['is_read'] == 0): ?>
+	                        <a href="<?php echo $this->View->url('messages_index_box', 'outbox') ?>">Outbox</a>
+                        <?php elseif ($message['Sender']['username'] == $username): ?>
+	                        <a href="<?php echo $this->View->url('messages_index_box', 'sentbox') ?>">Sentbox</a>
+                        <?php else: ?>
+                            <a href="<?php echo $this->View->url('messages_index_box', 'inbox') ?>">Inbox</a>
+	                    <?php endif ?>
+                    </td>
+                <?php endif ?>
+                <td>
+                    <?php if ( $message['Message']['parent_id'] == 0): ?>
+                        <a href="<?php echo $this->View->url('messages_view', $message) ?>"><?php echo $message['Message']['title'] ?></a>
+                    <?php else: ?>
+	                    <a href="<?php echo $this->View->url('messages_view', $message) ?>#message-<?php echo $message['Message']['id'] ?>"><?php echo $message['Message']['title'] ?></a>
+                    <?php endif ?>
+                </td>
+                <td>
+				    <a href="<?php echo $this->View->url('user_profile', $message['Sender']['username']) ?>">
+					    <?php echo $message['Sender']['username'] ?>
+				    </a>
+                </td>
+                <td>
+	                <a href="<?php echo $this->View->url('user_profile', $message['Receiver']['username']) ?>">
+		                <?php echo $message['Receiver']['username'] ?>
+	                </a>
+                </td>
+                <td class="hidden-phone">
+                    <?php echo $this->Admin->time($message['Message']['created'], 'words') ?>
+                </td>
+                <td class="hidden-phone">
+                    <?php if ( $message['Message']['last_reply_time'] == '0000-00-00 00:00:00'): ?>
+                        No Replies
+                    <?php else: ?>
+                        <?php echo $this->Admin->time($message['Message']['last_reply_time'], 'words') ?>
+					<?php endif ?>
+                </td>
+                <?php if ( $box != 'outbox'): ?>
+                    <td>
+                        <?php if ( $box != 'archive' && $message['Message']['is_read'] == 0 && $message['Message']['receiver_user_id'] == $this->Session->read('Auth.User.id')): ?>
+                            <a href="<?php echo $this->View->url('messages_move', array('mark_read', $message['Message']['id'])) ?>" class="btn btn-primary">
+	                            <i class="icon-check icon-white"></i> Mark Read
+                            </a>
+                        <?php endif ?>
+                        <?php if ( $box != 'archive'): ?>
+		                    <a href="<?php echo $this->View->url('messages_move', array('archive', $message['Message']['id'])) ?>" class="btn btn-info">
+			                    <i class="icon-check icon-white"></i> Archive Message
+		                    </a>
+                        <?php elseif ($box == 'archive'): ?>
+		                    <a href="<?php echo $this->View->url('messages_move', array('inbox', $message['Message']['id'])) ?>" class="btn btn-success">
+			                    <i class="icon-check icon-white"></i> Move to Inbox
+		                    </a>
+                        <?php endif ?>
+                    </td>
+                <?php endif ?>
+            </tr>
+            <?php endforeach ?>
+        </tbody>
+    </table>
+
+    <?php echo $this->Element('pagination') ?>
+<?php else: ?>
+    <div class="well span12 no-marg-left">
+        <p>
+            No Messages in <?php echo $current_box ?>
+        </p>
+    </div>
+<?php endif ?>

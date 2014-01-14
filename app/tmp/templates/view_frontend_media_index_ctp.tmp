@@ -1,0 +1,40 @@
+<?php $this->Html->addCrumb('Media Index', null) ?>ste
+
+<h1>Media Libraries</h1>
+
+<?php if (empty($media)): ?>
+    <div class="well">
+        No Libraries found
+    </div>
+<?php else: ?>
+	<ul class="thumbnails no-pad-left">
+		<?php foreach($media as $index => $library): ?>
+			<li class="col-lg-3 list-unstyled panel panel-inverse">
+				<div class="panel-heading">
+					<h3 class="panel-title">
+						<a href="<?php echo $this->View->url('media_view', $library) ?>"><?php echo $library['Media']['title'] ?></a>
+						<small>
+							<?php echo $library['File']['count'] ?> Images
+						</small>
+					</h3>
+				</div>
+
+				<?php if ( !empty($library['File']['id'])): ?>
+					<a href="<?php echo $this->View->url('media_view', $library) ?>">
+						<img src="<?php echo $this->webroot ?><?php echo $library['File']['dir'].'thumb/' . $library['File']['filename'] ?>" style="width: 267px; height: 200px;">
+					</a>
+				<?php endif ?>
+				<div class="caption">
+					<em>
+						Posted @
+						<?php echo $this->Admin->time($library['Media']['created'], 'words') ?>
+					</em>
+				</div>
+			</li>
+		<?php endforeach ?>
+	</ul>
+
+	<div class="clearfix"></div>
+
+	<?php echo $this->Element('pagination') ?>
+<?php endif ?>

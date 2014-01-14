@@ -1,0 +1,108 @@
+<?php echo $this->TinyMce->editor() ?>
+
+<?php $this->Html->addCrumb('Profile', $this->View->url('user_profile', $this->Session->read('Auth.User.username'))) ?>
+<?php $this->Html->addCrumb('Edit', null) ?>
+
+<h1 class="pull-left">Edit Account</h1>
+
+<a class="pull-right btn btn-info" href="<?php echo $this->View->url('user_profile', $this->Session->read('Auth.User.username')) ?>">
+	<i class="icon-chevron-left"></i> Return to Profile
+</a>
+<div class="clearfix"></div>
+
+<?php echo $this->Form->create('', array('class' => 'admin-validate well', 'type' => 'file')) ?>
+
+	<?php echo $this->Form->input('username', array(
+		'class' => 'required',
+		'disabled'
+	)) ?>
+	<?php echo $this->Form->input('password', array(
+		'type' => 'password',
+		'label' => 'New Password?',
+		'value' => '',
+        'required' => false
+	)) ?>
+	<?php echo $this->Form->input('password_confirm', array(
+		'type' => 'password',
+		'value' => ''
+	)) ?>
+	<?php echo $this->Form->input('email', array(
+		'type' => 'text',
+		'class' => 'required email'
+	)) ?>
+
+	<?php echo $this->Form->hidden('id') ?>
+
+	<?php if ( !empty($security_questions) && !empty($security_options)): ?>
+		<?php echo $this->Form->input('security_question_hidden', array(
+			'options' => $security_options,
+			'label' => false,
+			'div' => false,
+			'style' => 'display:none'
+		)) ?>
+
+		<?php for($i = 1; $i <= $security_questions; $i++): ?>
+			<?php echo $this->Form->input('Security.' . $i . '.question', array(
+				'empty' => '- choose -',
+				'class' => 'required security-question',
+				'options' => $security_options,
+				'label' => 'Security Question ' . $i
+			)) ?>
+			<div id="Security<?php echo $i ?>Question" style="display: none">
+				<?php echo $this->Form->input('Security.' . $i . '.answer', array(
+					'class' => 'required security-answer',
+					'label' => 'Security Answer ' . $i
+				)) ?>
+			</div>
+		<?php endfor ?>
+	<?php endif ?>
+
+	<?php echo $this->Form->input('theme_id', array(
+	    'label' => 'Theme',
+	    'empty' => '- Choose Theme -'
+	)) ?>
+
+	<?php echo $this->Form->input('User.settings.time_zone', array(
+	    'label' => 'Timezone',
+	    'empty' => '- Choose -',
+	    'options' => $timezones
+	)) ?>
+
+	<?php if ( !empty($settings['avatar'])): ?>
+	    <h4>Current Avatar</h4>
+
+	    <?php echo $this->Html->image(
+	        '/uploads/avatars/' . $this->request->data['User']['settings']['avatar'],
+	        array('class' => 'thumbnail col-lg-2')
+	    ) ?>
+	    <?php echo $this->Form->hidden('User.settings.old_avatar', array(
+	        'value' => $this->request->data['User']['settings']['avatar']
+	    )) ?>
+	    <div class="clearfix"></div>
+	<?php endif ?>
+
+	<?php echo $this->Form->input('User.settings.avatar', array(
+	    'label' => 'Avatar',
+	    'type' => 'file'
+	)) ?>
+
+	<?php if ( !empty($fields)): ?>
+		<?php foreach($fields as $index => $field): ?>
+		    <?php echo $this->Element('FieldTypes/' . $field['FieldType']['slug'], array(
+		        'model' => 'ModuleValue',
+		        'key' => $index,
+		        'field' => $field,
+		        'icon' => !empty($field['Field']['description']) ?
+		        "<i class='icon icon-question-sign field-desc' data-content='".$field['Field']['description']."' data-title='".$field['Field']['label']."'></i>&nbsp;" : ''
+		    )) ?>
+		    <?php echo $this->Form->hidden('ModuleValue.' . $index . '.field_id', array('value' => $field['Field']['id'])) ?>
+		    <?php echo $this->Form->hidden('ModuleValue.' . $index . '.module_id', array('value' => $this->request->data['User']['id'])) ?>
+		    <?php echo $this->Form->hidden('ModuleValue.' . $index . '.module_name', array('value' => 'user')) ?>
+
+		    <?php if ( !empty($field['ModuleValue'][0]['id'])): ?>
+		        <?php echo $this->Form->hidden('ModuleValue.' . $index . '.id', array('value' => $field['ModuleValue'][0]['id'])) ?>
+		    <?php endif ?>
+		<?php endforeach ?>
+	<?php endif ?>
+
+<?php echo $this->Form->end(array('label' => 'Submit', 'class' => 'btn btn-primary')) ?>

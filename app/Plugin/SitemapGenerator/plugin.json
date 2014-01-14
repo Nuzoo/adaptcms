@@ -1,0 +1,18 @@
+{
+    "title": "Sitemap Generator",
+    "current_version": "1.0",
+    "api_id": 5,
+    "install": {
+    	"model_title": "Sitemap",
+        "text": "Install/install_text.md",
+    	"sql": [
+    		"Install/install_data.sql"
+    	]
+    },
+    "uninstall": {
+        "text": "Install/uninstall_text.md",
+    	"sql": [
+    		"Install/uninstall_data.sql"
+    	]
+    }
+}
