@@ -7,7 +7,7 @@
 <head>
 	<?php echo $this->Html->charset() ?>
 	<title>
-		AdaptCMS 3.0.2 | <?php echo $title_for_layout ?>
+		Nuzoo's schräge Schichten | <?php echo $title_for_layout ?>
 	</title>
 
 	<?= $this->Html->meta('favicon.ico', $this->webroot . 'img/favicon.ico', array('type' => 'icon')) ?>
@@ -67,7 +67,7 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	</button>
-	<a class="navbar-brand" href="<?php echo $this->webroot ?>">AdaptCMS 3.0.2</a>
+	<a class="navbar-brand" href="<?php echo $this->webroot ?>">Nuzoo's schräge Schichten</a>
 
 	<div class="navbar-responsive-collapse nav-collapse collapse">
 		<ul class="nav navbar-nav">

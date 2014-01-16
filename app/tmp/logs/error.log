@@ -656,3 +656,891 @@ CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
 Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
 [main] - APP\webroot\index.php, line 92
 
+2014-01-14 19:35:57 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:36:02 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:36:04 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:36:06 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:36:13 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:36:14 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:36:14 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:36:19 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:36:22 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:36:36 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:36:38 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:37:18 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:37:18 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:37:19 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-14 19:37:22 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:37:23 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 19:37:23 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 21:32:19 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 21:32:38 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 21:36:57 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 21:37:02 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-14 21:37:16 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:19 Warning: Warning (2): session_regenerate_id() [<a href='http://php.net/function.session-regenerate-id'>function.session-regenerate-id</a>]: Session object destruction failed in [X:\adaptcms\lib\Cake\Model\Datasource\CakeSession.php, line 664]
+Trace:
+session_regenerate_id - [internal], line ??
+CakeSession::renew() - CORE\Cake\Model\Datasource\CakeSession.php, line 664
+SessionComponent::renew() - CORE\Cake\Controller\Component\SessionComponent.php, line 137
+AuthComponent::login() - CORE\Cake\Controller\Component\AuthComponent.php, line 600
+UsersController::login() - APP\Controller\UsersController.php, line 292
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:20 Warning: Warning (2): session_regenerate_id() [<a href='http://php.net/function.session-regenerate-id'>function.session-regenerate-id</a>]: Session object destruction failed in [X:\adaptcms\lib\Cake\Model\Datasource\CakeSession.php, line 664]
+Trace:
+session_regenerate_id - [internal], line ??
+CakeSession::renew() - CORE\Cake\Model\Datasource\CakeSession.php, line 664
+SessionComponent::renew() - CORE\Cake\Controller\Component\SessionComponent.php, line 137
+AuthComponent::login() - CORE\Cake\Controller\Component\AuthComponent.php, line 600
+UsersController::login() - APP\Controller\UsersController.php, line 292
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:35 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:38 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:40 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:42 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:46 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:11:57 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:12:05 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:13:41 Warning: Warning (2): rename(X:\adaptcms\app\View/Old_Themed\United\,X:\adaptcms\app\View/Themed\United\) [<a href='http://php.net/function.rename'>function.rename</a>]: Zugriff verweigert (code: 5) in [X:\adaptcms\app\Controller\InstallController.php, line 969]
+Trace:
+rename - [internal], line ??
+InstallController::install_theme() - APP\Controller\InstallController.php, line 969
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:29:52 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:30:27 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:30:27 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:30:27 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:30:27 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:30:29 Error: [MissingControllerException] Controller class AdaptcmsController could not be found.
+Exception Attributes: array (
+  'class' => 'AdaptcmsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/adaptcms/img/favicon.ico
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:30:32 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:30:32 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:30:33 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:30:33 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:30:34 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:38:57 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:39:04 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:39:10 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:39:25 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:39:43 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:39:50 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:39:57 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:40:07 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:42:19 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:42:26 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:48 Warning: Warning (2): chmod() [<a href='http://php.net/function.chmod'>function.chmod</a>]: No such file or directory in [X:\adaptcms\app\Model\Behavior\UploadBehavior.php, line 468]
+Trace:
+chmod - [internal], line ??
+UploadBehavior::createThumbnail() - APP\Model\Behavior\UploadBehavior.php, line 468
+UploadBehavior::beforeSave() - APP\Model\Behavior\UploadBehavior.php, line 257
+ObjectCollection::trigger() - CORE\Cake\Utility\ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Model::save() - CORE\Cake\Model\Model.php, line 1771
+Model::saveMany() - CORE\Cake\Model\Model.php, line 2236
+Model::saveAll() - CORE\Cake\Model\Model.php, line 2167
+FilesController::admin_add() - APP\Controller\FilesController.php, line 85
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:48 Warning: Warning (2): chmod() [<a href='http://php.net/function.chmod'>function.chmod</a>]: No such file or directory in [X:\adaptcms\app\Model\Behavior\UploadBehavior.php, line 468]
+Trace:
+chmod - [internal], line ??
+UploadBehavior::createThumbnail() - APP\Model\Behavior\UploadBehavior.php, line 468
+UploadBehavior::beforeSave() - APP\Model\Behavior\UploadBehavior.php, line 275
+ObjectCollection::trigger() - CORE\Cake\Utility\ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Model::save() - CORE\Cake\Model\Model.php, line 1771
+Model::saveMany() - CORE\Cake\Model\Model.php, line 2236
+Model::saveAll() - CORE\Cake\Model\Model.php, line 2167
+FilesController::admin_add() - APP\Controller\FilesController.php, line 85
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:48 Warning: Warning (2): chmod() [<a href='http://php.net/function.chmod'>function.chmod</a>]: No such file or directory in [X:\adaptcms\app\Model\Behavior\UploadBehavior.php, line 468]
+Trace:
+chmod - [internal], line ??
+UploadBehavior::createThumbnail() - APP\Model\Behavior\UploadBehavior.php, line 468
+UploadBehavior::beforeSave() - APP\Model\Behavior\UploadBehavior.php, line 257
+ObjectCollection::trigger() - CORE\Cake\Utility\ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Model::save() - CORE\Cake\Model\Model.php, line 1771
+Model::saveMany() - CORE\Cake\Model\Model.php, line 2236
+Model::saveAll() - CORE\Cake\Model\Model.php, line 2167
+FilesController::admin_add() - APP\Controller\FilesController.php, line 85
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:48 Warning: Warning (2): chmod() [<a href='http://php.net/function.chmod'>function.chmod</a>]: No such file or directory in [X:\adaptcms\app\Model\Behavior\UploadBehavior.php, line 468]
+Trace:
+chmod - [internal], line ??
+UploadBehavior::createThumbnail() - APP\Model\Behavior\UploadBehavior.php, line 468
+UploadBehavior::beforeSave() - APP\Model\Behavior\UploadBehavior.php, line 275
+ObjectCollection::trigger() - CORE\Cake\Utility\ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Model::save() - CORE\Cake\Model\Model.php, line 1771
+Model::saveMany() - CORE\Cake\Model\Model.php, line 2236
+Model::saveAll() - CORE\Cake\Model\Model.php, line 2167
+FilesController::admin_add() - APP\Controller\FilesController.php, line 85
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:48 Warning: Warning (2): chmod() [<a href='http://php.net/function.chmod'>function.chmod</a>]: No such file or directory in [X:\adaptcms\app\Model\Behavior\UploadBehavior.php, line 468]
+Trace:
+chmod - [internal], line ??
+UploadBehavior::createThumbnail() - APP\Model\Behavior\UploadBehavior.php, line 468
+UploadBehavior::beforeSave() - APP\Model\Behavior\UploadBehavior.php, line 257
+ObjectCollection::trigger() - CORE\Cake\Utility\ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Model::save() - CORE\Cake\Model\Model.php, line 1771
+Model::saveMany() - CORE\Cake\Model\Model.php, line 2236
+Model::saveAll() - CORE\Cake\Model\Model.php, line 2167
+FilesController::admin_add() - APP\Controller\FilesController.php, line 85
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:48 Warning: Warning (2): chmod() [<a href='http://php.net/function.chmod'>function.chmod</a>]: No such file or directory in [X:\adaptcms\app\Model\Behavior\UploadBehavior.php, line 468]
+Trace:
+chmod - [internal], line ??
+UploadBehavior::createThumbnail() - APP\Model\Behavior\UploadBehavior.php, line 468
+UploadBehavior::beforeSave() - APP\Model\Behavior\UploadBehavior.php, line 275
+ObjectCollection::trigger() - CORE\Cake\Utility\ObjectCollection.php, line 132
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Model::save() - CORE\Cake\Model\Model.php, line 1771
+Model::saveMany() - CORE\Cake\Model\Model.php, line 2236
+Model::saveAll() - CORE\Cake\Model\Model.php, line 2167
+FilesController::admin_add() - APP\Controller\FilesController.php, line 85
+ReflectionMethod::invokeArgs() - [internal], line ??
+Controller::invokeAction() - CORE\Cake\Controller\Controller.php, line 490
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 185
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:50 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/Wk1EHjBYLqWJ64lSK5LvK4wZT63rGC.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:45:50 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/tkDCH8i0qxrrdkwQu0OxZqCi9royAK.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:45:50 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/tE2ZFwedJihfD9nzyRo385BPjgkdbw.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:45:53 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:54 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:45:54 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:46:33 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/tE2ZFwedJihfD9nzyRo385BPjgkdbw.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:46:35 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:46:43 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/Wk1EHjBYLqWJ64lSK5LvK4wZT63rGC.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:46:43 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/tE2ZFwedJihfD9nzyRo385BPjgkdbw.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:46:43 Error: [MissingControllerException] Controller class UploadsController could not be found.
+Exception Attributes: array (
+  'class' => 'UploadsController',
+  'plugin' => NULL,
+)
+Request URL: /adaptcms/uploads/thumb/tkDCH8i0qxrrdkwQu0OxZqCi9royAK.jpg
+Stack Trace:
+#0 X:\adaptcms\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-01-15 00:46:46 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:46:46 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:46:47 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:47:27 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::renderCache() - APP\View\AdaptcmsView.php, line 593
+AdaptcmsCacheDispatcher::beforeDispatch() - APP\Routing\Filter\AdaptcmsCacheDispatcher.php, line 66
+call_user_func - [internal], line ??
+CakeEventManager::dispatch() - CORE\Cake\Event\CakeEventManager.php, line 247
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 140
+[main] - APP\webroot\index.php, line 92
+
+2014-01-15 00:47:35 Warning: Warning (2): Invalid argument supplied for foreach() in [X:\adaptcms\app\Service\Blocks.php, line 68]
+Trace:
+Blocks::blockLookup() - APP\Service\Blocks.php, line 68
+AdaptcmsView::_findBlocks() - APP\View\AdaptcmsView.php, line 537
+AdaptcmsView::_evaluate() - APP\View\AdaptcmsView.php, line 153
+View::_render() - CORE\Cake\View\View.php, line 891
+View::renderLayout() - CORE\Cake\View\View.php, line 523
+AdaptcmsView::render() - APP\View\AdaptcmsView.php, line 117
+Controller::render() - CORE\Cake\Controller\Controller.php, line 952
+Dispatcher::_invoke() - CORE\Cake\Routing\Dispatcher.php, line 192
+Dispatcher::dispatch() - CORE\Cake\Routing\Dispatcher.php, line 160
+[main] - APP\webroot\index.php, line 92
+

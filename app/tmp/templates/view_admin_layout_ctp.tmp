@@ -1,21 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<?php echo $this->Html->script("jquery.min") ?>
-<?php echo $this->Html->script("jquery.validate.min") ?>
-<?php echo $this->Html->script("bootstrap.min") ?>
-<?= $this->Html->script("vendor/noty/jquery.noty.js") ?>
-<?= $this->Html->script("vendor/noty/layouts/bottomRight.js") ?>
-<?= $this->Html->script("vendor/noty/themes/default.js") ?>
-<?php echo $this->Html->script("global") ?>
-
-<?php echo $this->fetch("meta") ?>
-<?php echo $this->fetch("css") ?>
-<?php echo $this->fetch("script") ?>
-
-<?php echo $this->AutoLoadJS->getJs() ?>
-<?php echo $this->AutoLoadJS->getCss() ?>
-			
 	<meta charset="utf-8">
 	<title>AdaptCMS <?= ADAPTCMS_VERSION ?></title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
